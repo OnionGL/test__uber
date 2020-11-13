@@ -1,0 +1,133 @@
+
+body{
+	font-family: 'Itim-Regular'; 
+	margin: 0;
+}
+button{
+	display: block;
+}
+a{
+	color: #1D1D1D;
+}
+a:hover{
+	 text-decoration: none;
+}
+a:hover {
+    color:#57AD56;
+}
+
+.nav__button{
+	background: #fff;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+	padding: 7px 13px 7px 13px;
+}
+.Register{
+	color: #fff;
+	background: #000;
+	padding: 7px 13px 7px 13px;
+}
+button{
+	border: none;
+}
+img{
+	width: 317,94px;
+}
+h1{
+	font-size: 22px;
+	margin-bottom: 16px;
+}
+
+/*HEADER*/
+.header{
+
+	box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);	
+	padding: 13px 25px 16px 81px;
+}
+.Sign_In{
+	margin-right: 16px;
+}
+.Register{
+	margin-right: 27px;
+}
+/*HEADER END*/
+/*search_for_restaurant*/
+.search_for_restaurant{
+	padding-top: 60px;
+	padding-bottom: 56px;
+	background: #F2F2F2;
+}
+.text_search_for_restaurant{
+	padding-top: 13px;
+	margin-left: 15px;
+	font-size: 16px;
+	color: #626262;
+}
+
+
+/*search_for_restaurant END*/
+/*kyiv_restaurants*/
+h5{
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+.kyiv_restaurants{
+	background: #F2F2F2;
+	padding-bottom: 100px;
+}
+.text{
+	margin-bottom: 4px;
+	font-size: 14px;
+}
+.text__kyiv_restaurants_time{
+	margin-bottom: 46px;
+}
+/*kyiv_restaurants END*/
+.footer{
+	min-height: 25vh;
+	background: #262626;	
+}
+.img_footer{
+	width: 230px;
+	margin-top: 50px;
+}
+.footer__text{
+	color: #fff;
+	font-size: 21px;
+}
+.footer__hr{
+	background: #ffff;
+}
+.apple_google{
+	margin-top: 25px;
+}
+.burger{
+	width: 180px;
+	margin-left: 25px;
+}
+.search_for_restaurant__text{	
+	border: none;
+	outline: none;
+	background: #F2F2F2;
+	width: 100%;
+	margin-left: 15px;
+}
+
+@media screen and (max-width: 825px){
+	.location{
+		display: none;
+	}
+	.header__logo{
+		margin-bottom: 15px;
+	}
+}
+@media screen and (max-width: 993px){
+	.menu{
+		flex-wrap: wrap;
+	}
+}
+@media screen and (max-width: 768px){
+	.footer-a{
+		flex-direction: column;
+	}
+}
